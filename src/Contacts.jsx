@@ -18,7 +18,7 @@ export default function Contacts () {
             <div className="contact-box">
               <img className="contact-logo" src={linkedIn} alt="contact-logo" />
               <p>ilhampurnama </p>
-              <a href=""><img className="link-logo" src={linkLogo} alt="link-logo"></img></a>
+              <a href="https://www.linkedin.com/in/ilhampurnama/" target="_blank"><img className="link-logo" src={linkLogo} alt="link-logo"></img></a>
             </div>
           </div>
           
@@ -26,7 +26,7 @@ export default function Contacts () {
             <div className="contact-box">
               <img className="contact-logo" src={githubLogo} alt="contact-logo" />
               <p>ilhamprnm </p>
-              <a href=""><img className="link-logo" src={linkLogo} alt="link-logo"></img></a>
+              <a href="https://github.com/ilhamprnm" target="_blank"><img className="link-logo" src={linkLogo} alt="link-logo"></img></a>
             </div>
           </div>
           
