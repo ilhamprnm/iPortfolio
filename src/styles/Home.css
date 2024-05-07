@@ -62,9 +62,18 @@
     font-size: 1.3rem
   }
 
+}
+
+@media ( min-width: 700px) and (max-width: 800px ) {
   .projects-button {
     padding: 12px 60px;
     font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 699px) {
+  .projects-button {
+    padding: 12px 40px;
   }
 }
 
