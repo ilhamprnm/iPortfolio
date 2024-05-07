@@ -73,7 +73,7 @@
 
 @media (max-width: 699px) {
   .projects-button {
-    padding: 12px 40px;
+    width: 200px;
   }
 }
 
