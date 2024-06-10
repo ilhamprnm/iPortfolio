@@ -28,6 +28,8 @@
   -2px -2px 20px rgba(123, 123, 123, 0.4),
   2px -2px 20px rgba(123, 123, 123, 0.4),
   -2px 2px 20px rgba(123, 123, 123, 0.4);
+  transform: scale(1.015);
+  transition: 0.25s ;
 }
 
 
@@ -49,17 +51,24 @@
   color: #666;
 }
 
+.button-cont {
+  display: flex;
+  column-gap:20px;
+}
 
 .project-right-section a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   border-radius: 5px;
   background-color: #ff8945;
   width: 50%;
   text-align: center;
-  padding: 4%;
+  padding: 14px 30px;
 }
 
 .project-right-section a:hover {
@@ -69,6 +78,7 @@
   2px -2px 5px rgba(123, 123, 123, 0.4),
   -2px 2px 5px rgba(123, 123, 123, 0.4);
   transform: scale(0.9);
+  transition: transform 0.3s
 }
 
 .last-project {
@@ -88,6 +98,11 @@
     text-align: center;
   }
 
+  .project-right-section a {
+    text-align: center;
+    transform: scale(0.75)
+  }
+
   .project-title {
     font-size: 1.5rem;
   }
@@ -95,6 +110,7 @@
   .projects-section {
     padding: 10% 5%;
   }
+
 }
 
 
