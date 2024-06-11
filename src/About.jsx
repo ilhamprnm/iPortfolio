@@ -22,10 +22,10 @@ export default function About () {
               <br />
               <div className="skills-box">
                 <div className="skill">HTML</div>
-                <div className="skill">CSS</div>
                 <div className="skill">Javascript</div>
+                <div className="skill">Tailwindcss</div>
+                <div className="skill">CSS</div>
                 <div className="skill">React</div>
-                <div className="skill">Git</div>
                 <div className="skill">Github</div>
               </div>
             </div>
