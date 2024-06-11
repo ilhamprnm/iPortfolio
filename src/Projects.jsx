@@ -48,14 +48,14 @@ export default function Projects () {
         <div className="projects-container">
           <div className="project-container">
             <div className="project-left-section">
-              <a href="https://iportfolioweb.netlify.app/" target="_blank"><img src={amazon} alt="project-image" /></a>
+              <a href="#" target="_blank"><img src={amazon} alt="project-image" /></a>
             </div>
             <div className="project-right-section">
               <h3 className="project-title">Amazon</h3>
               <p className="project-desc">I practice my javascript skill by making mock-up page from Amazon. You can see the code by clicking the button below</p>
               <div className="button-cont">
-                <a href="https://github.com/ilhamprnm/lashodia" target="_blank">See Code</a>
-                <a href="https://iportfolioweb.netlify.app/" target="_blank">Live View </a>
+                <a href="https://github.com/ilhamprnm/Amazon-Mockup" target="_blank">See Code</a>
+                <a href="#" target="_blank">Live View </a>
               </div>
             </div>
           </div>
