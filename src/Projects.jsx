@@ -36,7 +36,7 @@ export default function Projects () {
             </div>
             <div className="project-right-section">
               <h3 className="project-title">Portfolio Web</h3>
-              <p className="project-desc">I practice my React skill by making portfolio page. You can see the code by clicking the button below</p>
+              <p className="project-desc">I practice my React skill by making portfolio page. You can see the code and live liew by clicking the button below</p>
               <div className="button-cont">
                 <a href="https://github.com/ilhamprnm/iPortfolio" target="_blank">See Code</a>
                 <a href="https://iportfolioweb.netlify.app/" target="_blank">Live View </a>
@@ -55,7 +55,7 @@ export default function Projects () {
               <p className="project-desc">I practice my javascript skill by making mock-up page from Amazon. You can see the code by clicking the button below</p>
               <div className="button-cont">
                 <a href="https://github.com/ilhamprnm/Amazon-Mockup" target="_blank">See Code</a>
-                <a href="#" target="_blank">Live View </a>
+                
               </div>
             </div>
           </div>
