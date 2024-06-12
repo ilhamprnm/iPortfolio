@@ -1,7 +1,7 @@
 import "./styles/Projects.css"
-import lashodia from "./images/lashodia.png"
+import lashodia from "./videos/Lashodia.mp4"
 import amazon from "./images/amazon.jpg"
-import iPortfolio from "./images/iPortfolio.jpg"
+import iPortfolio from "./videos/Iportfolio.mp4"
 
 export default function Projects () {
   return (
@@ -15,7 +15,7 @@ export default function Projects () {
         <div className="projects-container">
           <div className="project-container">
             <div className="project-left-section">
-              <a href="https://lashodia.netlify.app/" target="_blank"><img src={lashodia} alt="project-image" /></a>
+              <video autoPlay={true} muted src={lashodia} ></video>
             </div>
             <div className="project-right-section">
               <h3 className="project-title">Lashodia</h3>
@@ -32,7 +32,7 @@ export default function Projects () {
         <div className="projects-container">
           <div className="project-container ">
             <div className="project-left-section">
-              <a href="https://iportfolioweb.netlify.app/" target="_blank"><img src={iPortfolio} alt="project-image" /></a>
+              <video src={iPortfolio} autoPlay={true} muted></video>
             </div>
             <div className="project-right-section">
               <h3 className="project-title">Portfolio Web</h3>
@@ -55,7 +55,7 @@ export default function Projects () {
               <p className="project-desc">I practice my javascript skill by making mock-up page from Amazon. You can see the code by clicking the button below</p>
               <div className="button-cont">
                 <a href="https://github.com/ilhamprnm/Amazon-Mockup" target="_blank">See Code</a>
-                
+                <a href="#" target="_blank">Live View </a>
               </div>
             </div>
           </div>
