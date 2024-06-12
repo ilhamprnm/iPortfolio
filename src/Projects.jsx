@@ -15,7 +15,7 @@ export default function Projects () {
         <div className="projects-container">
           <div className="project-container">
             <div className="project-left-section">
-              <video autoPlay={true} muted src={lashodia} ></video>
+              <video autoPlay={true} muted loop src={lashodia} ></video>
             </div>
             <div className="project-right-section">
               <h3 className="project-title">Lashodia</h3>
@@ -32,7 +32,7 @@ export default function Projects () {
         <div className="projects-container">
           <div className="project-container ">
             <div className="project-left-section">
-              <video src={iPortfolio} autoPlay={true} muted></video>
+              <video src={iPortfolio} autoPlay={true} loop muted></video>
             </div>
             <div className="project-right-section">
               <h3 className="project-title">Portfolio Web</h3>
