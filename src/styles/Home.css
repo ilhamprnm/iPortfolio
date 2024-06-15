@@ -41,9 +41,8 @@
   color: white;
   cursor: pointer;
   transition: 
-    box-shadow 0.5s,
-    font-size 0.5s, 
-    padding 0.5s ;
+    box-shadow 0.3s, 
+    transform 0.3s ;
   text-decoration: none;
 }
 
@@ -83,7 +82,6 @@
   -2px -2px 5px rgba(123, 123, 123, 0.4),
   2px -2px 5px rgba(123, 123, 123, 0.4),
   -2px 2px 5px rgba(123, 123, 123, 0.4);
-  font-size: 1.6rem;
-  padding: 18px 
+  transform: scale(0.9)
 
 }

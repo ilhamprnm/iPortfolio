@@ -72,6 +72,8 @@
   width: 50%;
   text-align: center;
   padding: 14px 30px;
+  min-width: fit-content;
+  transition: transform 0.3s ease-out;
 }
 
 .project-right-section a:hover {
@@ -81,7 +83,7 @@
   2px -2px 5px rgba(123, 123, 123, 0.4),
   -2px 2px 5px rgba(123, 123, 123, 0.4);
   transform: scale(0.9);
-  transition: transform 0.3s
+  
 }
 
 .last-project {
