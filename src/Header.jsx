@@ -1,4 +1,4 @@
-import logoImage from "./images/iPortfolio-logo.png"
+import logoImage from "./images/iportfolio-logo.png"
 import profilePhoto from "./images/profile-photo-68.jpg"
 import hamburgerMenu from "./icons/hamburger-menu.svg"
 import closeMenu from "./icons/close-icons.webp"
@@ -37,8 +37,7 @@ export default function Header() {
   return (
     <header className="header">
         <div className="left-section">
-          <img alt="profile-photo" src={profilePhoto} className="profile-photo"></img>
-          <img alt="logo-image" src={logoImage} className="iPortfolio-logo"></img>
+          <a href="#"><img alt="logo-image" src={logoImage} className="iPortfolio-logo"></img></a>
         </div>
         <div className="right-section">
           <ul>
@@ -50,6 +49,14 @@ export default function Header() {
           <img alt="hamburger-menu-icons" src={hamburgerMenu} className="hamburger-menu" id="hamburger" onClick={toggleHamburger}></img>
           <img alt="close-icon" className="close-icon" id="close-icon" src={closeMenu} onClick={toggleClose}></img>
         </div>
+        <div className="dropdown-menu" id="dropdown-menu">
+            <ul>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#projects">PROJECTS</a></li>
+              <li><a href="#contacts">CONTACTS</a></li>
+            </ul>
+          </div>
       </header>
   )
 }

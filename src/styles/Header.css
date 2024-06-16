@@ -23,7 +23,8 @@
 }
 
 .iPortfolio-logo {
-  height: 50px;
+
+  width: 230px;
   margin-left: 0px;
 }
 
@@ -126,6 +127,10 @@
     margin-right: 20px;
   }
 
+  
+}
+
+@media (max-width: 725px) {
   .right-section ul {
     display: none;
   }
@@ -144,6 +149,9 @@
   z-index: 100;
 }
 
+.dropdown-menu-active {
+  display: block;
+}
 
 .dropdown-menu ul li{
   text-align: right;
@@ -163,6 +171,3 @@
 }
 
 
-.dropdown-menu-active {
-  display: block;
-}

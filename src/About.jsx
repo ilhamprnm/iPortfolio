@@ -1,4 +1,10 @@
 import "./styles/About.css" 
+import html from "./icons/skills/html-1.svg"
+import javascript from "./icons/skills/javascript-1.svg"
+import css from "./icons/skills/css-3.svg"
+import react from "./icons/skills/react-2.svg"
+import tailwindcss from "./icons/skills/tailwind-css-2.svg"
+import github from "./icons/skills/github-icon-1.svg"
 
 export default function About () {
   return (
@@ -21,12 +27,13 @@ export default function About () {
               <h3>My skills</h3>
               <br />
               <div className="skills-box">
-                <div className="skill">HTML</div>
-                <div className="skill">Javascript</div>
-                <div className="skill">Tailwindcss</div>
-                <div className="skill">CSS</div>
-                <div className="skill">React</div>
-                <div className="skill">Github</div>
+                <div className="skill skill-1"><img src={html} alt="html-icon" /> <span>HTML</span>  </div>
+                <div className="skill skill-2"><img src={css} alt="html-icon" /> <span>CSS</span></div>
+                <div className="skill skill-3"><img src={javascript} alt="html-icon" /> <span>Javascript</span></div>
+                <div className="skill skill-4"><img src={react} alt="html-icon" /> <span>React</span></div>
+                <div className="skill skill-5"><img src={tailwindcss} alt="html-icon" /> <span>Tailwindcss</span></div>
+                <div className="skill skill-6"><img src={github} alt="html-icon" /> <span>Github</span></div>
+                
               </div>
             </div>
           </div>

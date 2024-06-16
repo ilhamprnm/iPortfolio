@@ -1,25 +1,22 @@
 import "./styles/Home.css"
+import profileImage from "./images/pp.jpg"
 
 export default function Home () {
   return (
     <section className="home-section" id="home">
-        <div className="dropdown-menu" id="dropdown-menu">
-          <ul>
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#contacts">CONTACTS</a></li>
-          </ul>
+      <div className="image-cont">
+        <img src={profileImage} alt="" />
+      </div>
+      <div className="desc-cont">
+        <div>
+          <h2>Hai, i'm Muhammad Ilham Purnama</h2>
         </div>
-        <div className="home-message">
-          <div className="message-container"> 
-            <h1 className="name-message">Hai, i'm Muhammad Ilham Purnama</h1>
-          
-            <p className="ex-message">Now, i'm improving my skills in web development and data science. I created this website as a medium for me to show my abilities in creating a websites. </p>
-            <a href="#projects" className="projects-button">Projects</a>
-          </div>
+        <div>
+          <p>Now, i'm improving my skills in web development. I created this website as a medium for me to show my abilities in creating a websites.</p>
         </div>
-      </section>
+      </div>
+
+    </section>
       
   )
 }
