@@ -1,5 +1,4 @@
 import logoImage from "./images/iportfolio-logo.png"
-import profilePhoto from "./images/profile-photo-68.jpg"
 import hamburgerMenu from "./icons/hamburger-menu.svg"
 import closeMenu from "./icons/close-icons.webp"
 import "./styles/Header.css"

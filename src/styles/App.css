@@ -11,9 +11,10 @@
 
 }
 
-.about-desc-container, .projects-desc-container, .contact-desc-container {
-  width: 60%;
-  margin-left: 20%;
+.about-desc-container, .projects-desc-container {
+  display: flex;
+  max-width: 700px;
+  margin: 0px auto;
 }
 
 .about-desc, .projects-desc, .contact-desc{
