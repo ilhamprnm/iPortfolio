@@ -5,7 +5,7 @@ import About from "./About.jsx"
 import Projects from "./Projects.jsx"
 import Contacts from "./Contacts.jsx"
 import Footer from "./Footer.jsx"
-import Loader from "./Loader.jsx"
+// import Loader from "./Loader.jsx"
 
 
 export default function App () {
@@ -13,7 +13,7 @@ export default function App () {
 
   return (
     <>
-      <Loader />
+      {/* <Loader /> */}
       <Header />
       <Home />
       <About />
