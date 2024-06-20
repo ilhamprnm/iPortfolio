@@ -27,13 +27,7 @@ export default function Contacts () {
       card.classList.add('open')
     }
 
-    // function addCenter () {
-    //   const contact = document.querySelector(`.contact-${number}`);
-    //   contact.style.justifyContent = 'flex-start';
-    // }
-    
     setTimeout(addOpen, 500)
-    // setTimeout(addCenter, 600)
    
   }
   
@@ -89,6 +83,30 @@ export default function Contacts () {
         </div>
       </div>
 
+      <div className="contact-me-cont">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+          <input type="hidden" name="access_key" value="2d074619-c67d-4fc1-b10e-854757ac5c5d"/>
+
+          <div className="label-cont">
+            <label htmlFor="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Please input your name" required/>
+          </div>
+
+          <div className="label-cont">
+            <label htmlFor="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Please input your email" required/>
+          </div>
+
+          <div className="label-cont">
+            <label htmlFor="message">Message</label>
+            <textarea type="text" id="message" name="message" rows={3} cols={30} placeholder="Please input your message" required/>
+          </div>
+
+          <button type="submit">Submit</button>
+
+        </form>
+      </div>
        
       </section>
   )

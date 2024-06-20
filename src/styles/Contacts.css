@@ -1,10 +1,15 @@
 
 .contact-section {
-  height: 1000px;
   padding: 5%;
   background-image: url('./../images/background.jpg');
   background-repeat: no-repeat;
-  height: 38rem;
+  height: 62rem;
+}
+
+@media (max-width: 500px) {
+  .contact-section {
+    height: 64rem;
+  }
 }
 
 .cont-header {
@@ -77,8 +82,13 @@
   width: 500px;
   background-color: white;
   position: absolute;
-  transition: opacity 0.5s, visibility 0.5s;
+  
+  transition: opacity 0.5s, visibility 0.5s, transform 0.3s linear 0.2s
 }
+
+/* .card:not(.open) {
+  transform: translateX(-20px);
+} */
 
 
 @media (max-width: 900px) {
@@ -106,6 +116,7 @@
 .open {
   opacity: 1;
   visibility: visible;
+  /* transform: translateX(10px); */
 }
 
 .card-image-cont {
@@ -135,6 +146,64 @@
 .card-desc-cont a {
   font-size: 10px;
 }
+
+.contact-me-cont {
+  background-color: white;
+  padding: 40px;
+  max-width: 800px;
+  margin: 30px auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px #dddddd;
+
+}
+
+.label-cont {
+  margin-bottom: 20px;
+}
+
+.contact-me-cont form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me-cont div {
+  width: 100%; 
+}
+
+
+.contact-me-cont label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-me-cont input, 
+.contact-me-cont textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: solid 1px #dddddd;
+}
+
+.contact-me-cont button {
+  background-color: #dddddd;
+  font-size: 20px;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 40px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  transition: background-color 0.3s;
+}
+
+.contact-me-cont button:hover {
+  background-color: #ff8945;
+  cursor: pointer;
+}
+
 
 
 
