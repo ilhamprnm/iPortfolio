@@ -1,7 +1,7 @@
 import "./styles/Projects.css"
-import lashodia from "./videos/Lashodia.mp4"
+import lashodia from "./videos/lashodia.mp4"
 import amazon from "./images/amazon.jpg"
-import iPortfolio from "./videos/Iportfolio.mp4"
+import iPortfolio from "./videos/iportfolio.mp4"
 
 export default function Projects () {
   return (
