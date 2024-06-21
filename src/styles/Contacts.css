@@ -4,6 +4,7 @@
   background-image: url('./../images/background.jpg');
   background-repeat: no-repeat;
   height: 62rem;
+  overflow: hidden;
 }
 
 @media (max-width: 500px) {
