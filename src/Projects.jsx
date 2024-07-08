@@ -1,6 +1,6 @@
 import "./styles/Projects.css"
 import lashodia from "./videos/lashodia.mp4"
-import amazon from "./images/amazon.jpg"
+import appleweb from "./videos/AppleWeb.mp4"
 import iPortfolio from "./videos/iportfolio.mp4"
 
 export default function Projects () {
@@ -36,7 +36,7 @@ export default function Projects () {
             </div>
             <div className="project-right-section">
               <h3 className="project-title">Portfolio Web</h3>
-              <p className="project-desc">I practice my React skill by making portfolio page. You can see the code and live liew by clicking the button below</p>
+              <p className="project-desc">I practice my React skill by making portfolio page. You can see the code and live view by clicking the button below</p>
               <div className="button-cont">
                 <a href="https://github.com/ilhamprnm/iPortfolio" target="_blank">See Code</a>
                 <a href="https://iportfolioweb.netlify.app/" target="_blank">Live View </a>
@@ -48,14 +48,14 @@ export default function Projects () {
         <div className="projects-container">
           <div className="project-container">
             <div className="project-left-section">
-              <a href="#" target="_blank"><img src={amazon} alt="project-image" /></a>
+              <video src={appleweb} autoPlay={true} loop muted></video>
             </div>
             <div className="project-right-section">
-              <h3 className="project-title">Amazon</h3>
-              <p className="project-desc">I practice my javascript skill by making mock-up page from Amazon. You can see the code by clicking the button below</p>
+              <h3 className="project-title">Apple Web</h3>
+              <p className="project-desc">I make this website using React, GSAP, Three.js and Tailwindcss. You can see the code and live view by clicking the button below</p>
               <div className="button-cont">
-                <a href="https://github.com/ilhamprnm/Amazon-Mockup" target="_blank">See Code</a>
-                <a href="#" target="_blank">Live View </a>
+                <a href="https://github.com/ilhamprnm/Apple_web" target="_blank">See Code</a>
+                <a href="https://mockupapple.netlify.app/" target="_blank">Live View </a>
               </div>
             </div>
           </div>

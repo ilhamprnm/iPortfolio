@@ -12,8 +12,7 @@
   margin-bottom: 50px;
 }
 
-.project-container video,
-.project-container img {
+.project-container video {
   width: 100%;
   box-shadow: 
   2px 2px 5px rgba(123, 123, 123, 0.4), 
@@ -23,8 +22,7 @@
   border-radius: 10px;
 }
 
-.project-container video:hover, 
-.project-container img:hover {
+.project-container video:hover {
   box-shadow: 
   2px 2px 20px rgba(123, 123, 123, 0.4), 
   -2px -2px 20px rgba(123, 123, 123, 0.4),
