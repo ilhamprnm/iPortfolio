@@ -2,6 +2,7 @@ import "./styles/Projects.css"
 import lashodia from "./videos/lashodia.mp4"
 import appleweb from "./videos/AppleWeb.mp4"
 import iPortfolio from "./videos/iportfolio.mp4"
+import ujianlah from './images/ujianlah.png'
 
 export default function Projects () {
   return (
@@ -48,14 +49,15 @@ export default function Projects () {
         <div className="projects-container">
           <div className="project-container">
             <div className="project-left-section">
-              <video src={appleweb} autoPlay={true} loop muted></video>
+              <img src={ujianlah} alt="ujianlah-image" />
+              {/* <video src={appleweb} autoPlay={true} loop muted></video> */}
             </div>
             <div className="project-right-section">
-              <h3 className="project-title">Apple Web</h3>
-              <p className="project-desc">I make this website using React, GSAP, Three.js and Tailwindcss. You can see the code and live view by clicking the button below</p>
+              <h3 className="project-title">Ujianlah</h3>
+              <p className="project-desc">I make this website using React and Tailwindcss. You can see the code and live view by clicking the button below</p>
               <div className="button-cont">
-                <a href="https://github.com/ilhamprnm/Apple_web" target="_blank">See Code</a>
-                <a href="https://mockupapple.netlify.app/" target="_blank">Live View </a>
+                <a href="https://github.com/ilhamprnm/cobaujian" target="_blank">See Code</a>
+                <a href="https://ujianlah.netlify.app/" target="_blank">Live View </a>
               </div>
             </div>
           </div>
