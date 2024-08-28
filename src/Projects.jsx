@@ -1,6 +1,5 @@
 import "./styles/Projects.css"
-import lashodia from "./videos/lashodia.mp4"
-import appleweb from "./videos/AppleWeb.mp4"
+import lashodia from "./images/lashodia.png"
 import iPortfolio from "./videos/iportfolio.mp4"
 import ujianlah from './images/ujianlah.png'
 
@@ -16,13 +15,13 @@ export default function Projects () {
         <div className="projects-container">
           <div className="project-container">
             <div className="project-left-section">
-              <video autoPlay={true} muted loop src={lashodia} ></video>
+              <img src={lashodia} alt="" />
             </div>
             <div className="project-right-section">
               <h3 className="project-title">Lashodia</h3>
-              <p className="project-desc">I using HTML, Javascript and Tailwindcss to build this e-commerce website. You can see the code and live view by clicking the button below</p>
+              <p className="project-desc">I React and Tailwindcss to build this e-commerce website. You can see the code and live view by clicking the button below</p>
               <div className="button-cont">
-                <a href="https://github.com/ilhamprnm/lashodia" target="_blank">See Code</a>
+                <a href="https://github.com/ilhamprnm/Lashodia-2" target="_blank">See Code</a>
                 <a href="https://lashodia.netlify.app/" target="_blank">Live View </a>
               </div>
             
