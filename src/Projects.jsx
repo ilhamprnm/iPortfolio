@@ -21,10 +21,14 @@ export default function Projects () {
               <h3 className="project-title">Lashodia</h3>
               <p className="project-desc">I React and Tailwindcss to build this e-commerce website. You can see the code and live view by clicking the button below</p>
               <div className="button-cont">
-                <a href="https://github.com/ilhamprnm/Lashodia-2" target="_blank">See Code</a>
-                <a href="https://lashodia.netlify.app/" target="_blank">Live View </a>
+                <a href="https://github.com/ilhamprnm/Lashodia-2" target="_blank">Frontend Code</a>
+                <a href="https://lashodia-2.vercel.app/" target="_blank">Live View </a>
               </div>
-            
+              <div className="button-cont">
+                <a href="https://github.com/ilhamprnm/Lashodia-2-Backend" target="_blank">Backend Code</a>
+                
+              </div>
+
             </div>
           </div>
         </div>
