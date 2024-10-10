@@ -3,8 +3,11 @@ import html from "./icons/skills/html-1.svg"
 import javascript from "./icons/skills/javascript-1.svg"
 import css from "./icons/skills/css-3.svg"
 import react from "./icons/skills/react-2.svg"
-import tailwindcss from "./icons/skills/tailwind-css-2.svg"
 import github from "./icons/skills/github-icon-1.svg"
+import tailwindcss from './icons/tailwindcss.png'
+import nodejs from './icons/nodejs.png'
+import express from './icons/express.png'
+import mongodb from './icons/mongodb.png'
 
 export default function About () {
   return (
@@ -32,8 +35,9 @@ export default function About () {
                 <div className="skill skill-3"><img src={javascript} alt="html-icon" /> <span>Javascript</span></div>
                 <div className="skill skill-4"><img src={react} alt="html-icon" /> <span>React</span></div>
                 <div className="skill skill-5"><img src={tailwindcss} alt="html-icon" /> <span>Tailwindcss</span></div>
-                <div className="skill skill-6"><img src={github} alt="html-icon" /> <span>Github</span></div>
-                
+                <div className="skill skill-6"><img src={nodejs} alt="html-icon" /> <span>Node.js</span></div>
+                <div className="skill skill-5"><img src={express} alt="html-icon" /> <span>Express</span></div>
+                <div className="skill skill-6"><img src={mongodb} alt="html-icon" /> <span>MongoDB</span></div>
               </div>
             </div>
           </div>

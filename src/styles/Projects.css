@@ -59,6 +59,22 @@
   column-gap:20px;
 }
 
+.project-tool-cont {
+  display:flex;
+  gap:10px;
+}
+
+.project-tool-cont img {
+  height: 30px;
+  width:30px;
+  padding:2px;
+  box-shadow:none;
+}
+
+.project-tool-cont img:hover {
+  box-shadow:none;
+}
+
 .project-right-section a {
   display: flex;
   align-items: center;
