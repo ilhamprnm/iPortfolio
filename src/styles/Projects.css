@@ -56,7 +56,9 @@
 
 .button-cont {
   display: flex;
-  column-gap:20px;
+  gap:20px;
+  flex-wrap:wrap;
+  justify-content:center
 }
 
 .project-tool-cont {
@@ -91,6 +93,8 @@
   min-width: fit-content;
   transition: transform 0.3s ease-out;
 }
+
+
 
 .project-right-section a:hover {
   box-shadow: 

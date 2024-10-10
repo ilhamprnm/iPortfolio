@@ -33,13 +33,13 @@
   position: relative;
   display:flex;
   flex-wrap:wrap;
-  gap:16px;
+  gap:14px;
 }
 
 .skill {
-  width: 180px;
-  height: 60px;
-  font-size: 1.2rem;
+  width: 8rem;
+  height: 3.75rem;
+  font-size: 0.9rem;
   background: rgb(180,180,180);
   border-radius: 5px;
   font-weight: 600;
@@ -51,41 +51,17 @@
 }
 
 .skill img {
-  height: 2rem;
+  height: 1.8rem;
   margin-right: 10px;
 }
 
 .skill-4 img {
-  height: 2.3rem;
+  height: 2rem;
 }
 
 .skill-5 img {
-  height: 1.8rem;
+  height: 1.5rem;
 }
-
-/* .skill-1 {
-  animation-delay: calc(15s / 6 * (6 - 1) * -1);
-}
-
-.skill-2 {
-  animation-delay: calc(15s / 6 * (6 - 2) * -1);
-}
-
-.skill-3 {
-  animation-delay: calc(15s / 6 * (6 - 3) * -1);
-}
-
-.skill-4 {
-  animation-delay: calc(15s / 6 * (6 - 4) * -1);
-}
-
-.skill-5 {
-  animation-delay: calc(15s / 6 * (6 - 5) * -1);
-}
-
-.skill-6 {
-  animation-delay: calc(15s / 6 * (6 - 6) * -1);
-} */
 
 
 @media (max-width: 1300px) {
@@ -117,7 +93,7 @@
 
 @media (max-width: 699px) {
   .about-section {
-    height: 85rem;
+    height: 92rem;
   }
 }
 

@@ -3,7 +3,7 @@ import html from "./icons/skills/html-1.svg"
 import javascript from "./icons/skills/javascript-1.svg"
 import css from "./icons/skills/css-3.svg"
 import react from "./icons/skills/react-2.svg"
-import github from "./icons/skills/github-icon-1.svg"
+
 import tailwindcss from './icons/tailwindcss.png'
 import nodejs from './icons/nodejs.png'
 import express from './icons/express.png'
@@ -31,13 +31,13 @@ export default function About () {
               <br />
               <div className="skills-box">
                 <div className="skill skill-1"><img src={html} alt="html-icon" /> <span>HTML</span>  </div>
-                <div className="skill skill-2"><img src={css} alt="html-icon" /> <span>CSS</span></div>
-                <div className="skill skill-3"><img src={javascript} alt="html-icon" /> <span>Javascript</span></div>
-                <div className="skill skill-4"><img src={react} alt="html-icon" /> <span>React</span></div>
-                <div className="skill skill-5"><img src={tailwindcss} alt="html-icon" /> <span>Tailwindcss</span></div>
-                <div className="skill skill-6"><img src={nodejs} alt="html-icon" /> <span>Node.js</span></div>
-                <div className="skill skill-5"><img src={express} alt="html-icon" /> <span>Express</span></div>
-                <div className="skill skill-6"><img src={mongodb} alt="html-icon" /> <span>MongoDB</span></div>
+                <div className="skill skill-2"><img src={css} alt="css-icon" /> <span>CSS</span></div>
+                <div className="skill skill-3"><img src={javascript} alt="js-icon" /> <span>Javascript</span></div>
+                <div className="skill skill-4"><img src={react} alt="react-icon" /> <span>React</span></div>
+                <div className="skill skill-5"><img src={tailwindcss} alt="tailwindcss-icon" /> <span>Tailwindcss</span></div>
+                <div className="skill skill-6"><img src={nodejs} alt="node-icon" /> <span>Node.js</span></div>
+                <div className="skill skill-5"><img src={express} alt="express-icon" /> <span>Express</span></div>
+                <div className="skill skill-6"><img src={mongodb} alt="mongo-icon" /> <span>MongoDB</span></div>
               </div>
             </div>
           </div>

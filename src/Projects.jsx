@@ -57,7 +57,7 @@ export default function Projects () {
                 <img src={mongodb} alt="mongodb" />
               </div>
 
-              <div className="button-cont">
+              <div className="button-cont lash-cont">
                 <a href="https://github.com/ilhamprnm/Lashodia-2" target="_blank">Frontend Code</a>
                 <a href="https://github.com/ilhamprnm/Lashodia-2-Backend" target="_blank">Backend Code</a>
                 
