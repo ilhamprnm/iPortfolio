@@ -7,6 +7,10 @@ import tailwindcss from './icons/tailwindcss.png'
 import nodejs from './icons/nodejs.png'
 import express from './icons/express.png'
 import mongodb from './icons/mongodb.png'
+import obito from './images/obito.png'
+import laravel from './icons/laravel.png'
+import php from './icons/php.png'
+import mysql from './icons/mysql.png'
 
 export default function Projects () {
   return (
@@ -15,6 +19,28 @@ export default function Projects () {
         <div className="underline"></div>
         <div className="projects-desc-container">
           <p className="projects-desc">Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
+        </div>
+
+        <div className="projects-container">
+          <div className="project-container">
+            <div className="project-left-section">
+              <img src={obito} alt="obito-image" />
+            </div>
+            <div className="project-right-section">
+              <h3 className="project-title">Obito</h3>
+              <p className="project-desc">Obito is a website that provides courses that can be accessed through a subscription. Obito is made using the php framework, laravel 11 and implemented the Model-View-Controller (MVC) architecture and design using Tailwindcss. CMS using filament Database using MySQL, and payment system using Midtrans Payment Gateway</p>
+              <div className="project-tool-cont">
+                <img src={laravel} alt="laravel" />
+                <img src={tailwindcss} alt="tailwindcss" />
+                <img src={php} alt="php" />
+                <img src={mysql} alt="mysql" />
+              </div>
+              <div className="button-cont">
+                <a href="https://github.com/ilhamprnm/Obito" target="_blank">See Code</a>
+                <a href="https://4d05-118-136-101-47.ngrok-free.app/" target="_blank">Live View </a>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="projects-container">

@@ -8,6 +8,9 @@ import tailwindcss from './icons/tailwindcss.png'
 import nodejs from './icons/nodejs.png'
 import express from './icons/express.png'
 import mongodb from './icons/mongodb.png'
+import mysql from './icons/mysql.png'
+import php from './icons/php.png'
+import laravel from './icons/laravel.png'
 
 export default function About () {
   return (
@@ -38,6 +41,9 @@ export default function About () {
                 <div className="skill skill-6"><img src={nodejs} alt="node-icon" /> <span>Node.js</span></div>
                 <div className="skill skill-5"><img src={express} alt="express-icon" /> <span>Express</span></div>
                 <div className="skill skill-6"><img src={mongodb} alt="mongo-icon" /> <span>MongoDB</span></div>
+                <div className="skill skill-6"><img src={mysql} alt="mysql-icon" /> <span>MySQL</span></div>
+                <div className="skill skill-6"><img src={php} alt="php-icon" /> <span>PHP</span></div>
+                <div className="skill skill-6"><img src={laravel} alt="laravel-icon" /> <span>Laravel</span></div>
               </div>
             </div>
           </div>
