@@ -37,7 +37,7 @@ export default function Projects () {
               </div>
               <div className="button-cont">
                 <a href="https://github.com/ilhamprnm/Obito" target="_blank">See Code</a>
-                <a href="https://4d05-118-136-101-47.ngrok-free.app/" target="_blank">Live View </a>
+                <a href="https://6a71-118-136-101-47.ngrok-free.app/" target="_blank">Live View </a>
               </div>
             </div>
           </div>
